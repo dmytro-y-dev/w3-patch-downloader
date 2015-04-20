@@ -23,7 +23,6 @@ Source code dependencies
 
 To compile the utility you need following libraries to be installed on your system:
 - **lasote/curl**: <https://www.biicode.com/lasote/curl>
-- **zlib/zlib**: <https://www.biicode.com/zlib/zlib>
 
 You can use biicode to easily install these dependencies on project's folder.
 
