@@ -34,10 +34,11 @@ How to use this utility
 
 Use this utility from command line. Syntax is next:
 
-w3-patch-downloader \<action\> \<http-address\> [output-directory]
+w3-patch-downloader just-download <http-address> <output-file-path>
+w3-patch-downloader download-and-unzip <http-address> [output-directory]
 
 **Usage example:**
-  w3-patch-downloader just-download *http://www.my-nasty-site.hi/my-file.txt* some-folder/subfolder/
+w3-patch-downloader just-download http://site.hi/my-file.txt my-file.txt
 
 Available actions:
 - **just-download**: download file from *"http-address"* and put it to *"output-directory"*
