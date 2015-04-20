@@ -9,6 +9,7 @@ Building the utility
 --------------------
 
 You should use bii (<http://www.biicode.com>) to build this project. Building commands are next:
+
 1. **cd** to project's folder.
 2. Run **bii init -L**
 3. Run **bii find**
@@ -16,6 +17,7 @@ You should use bii (<http://www.biicode.com>) to build this project. Building co
 5. Run **bii cpp:build** to build application.
 
 Another possible option is CMake (<http://www.cmake.org/>). Building steps are next:
+
 1. Open command line and change current directory with **cd** command to the directory where you unpacked the utility's source code.
 2. Run **cmake -H. -Bbuild -G "Visual Studio 12"** to create Makefile for Visual Studio 2013 (or use other generator if you use other IDE). Don't forget to specify path to **curl** library with -D parameter.
 3. Open **build/w3-patch-downloader.sln** and build project in Visual Studio.
