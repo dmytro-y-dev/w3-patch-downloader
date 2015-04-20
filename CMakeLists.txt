@@ -1,3 +1,8 @@
+IF(BIICODE)
+	ADD_BII_TARGETS()
+	return()
+endif()
+
 cmake_minimum_required(VERSION 3.1)
 
 project(w3-patch-downloader)
