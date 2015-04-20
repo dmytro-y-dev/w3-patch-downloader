@@ -11,9 +11,9 @@ Building the utility
 You should use bii (<http://www.biicode.com>) to build this project. Building commands are next:
 
 1. `cd` to project's folder.
-2. Run `bii init -L`
-3. Run `bii find`
-4. Run `bii cpp:configure`. You can specify your CMake generator with `-G` flag like `bii cpp:configure -G "Visual Studio 12"`
+2. Run `bii init -L`.
+3. Run `bii find`.
+4. Run `bii cpp:configure`. You can specify your CMake generator with `-G` flag like `bii cpp:configure -G "Visual Studio 12"`.
 5. Run `bii cpp:build` to build application.
 
 Another possible option is CMake (<http://www.cmake.org/>). The steps are next:
@@ -39,6 +39,7 @@ How to use this utility
 Use this utility from command line. Syntax is next:
 
 `w3-patch-downloader just-download \<http-address\> \<output-file-path\>`
+
 `w3-patch-downloader download-and-unzip \<http-address\> [output-directory]`
 
 **Usage example:**
